@@ -9,12 +9,12 @@ header {
 
 nav {
   background-color: burlywood;
-  display: inline-block;
-  width: 80%;
+  display: block;
+  width: 1000px;
 }
 
 nav>img {
-  width: 10%;
+  width: 500px;
 }
 
 main {
@@ -43,14 +43,14 @@ p {
 
 .grid {
   grid-column: 1 / 2;
-  width: 40%;
+  width: 300px;
   justify-content: space-evenly;
   align-items: center;
   row-gap: 20px;
 }
 
 .grid>img {
-  width: 100%;
+  width: 90px;
 }
 
 .flex {
